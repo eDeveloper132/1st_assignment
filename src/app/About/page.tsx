@@ -1,10 +1,10 @@
 
 export default async function About(){
-    await new Promise((resolve) => {
-        setTimeout(resolve, 2000);  // Wait for 2 seconds before resolving
-      });
+    // await new Promise((resolve) => {
+    //     setTimeout(resolve, 2000);  // Wait for 2 seconds before resolving
+    //   });
     return(
-        <div className="min-h-screen bg-gradient-to-r from-green-400 to-blue-500">
+        <div className="min-h-screen bg-gradient-to-r from-green-400 to-blue-500 flex items-center justify-center">
         <div className="bg-white p-10 rounded-lg shadow-lg max-w-md">
           <h2 className="text-4xl font-bold text-center mb-6 text-gray-800">
             Second About Demo Page

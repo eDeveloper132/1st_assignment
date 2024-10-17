@@ -132,12 +132,15 @@ export default function RootLayout({
                       <span className="absolute -inset-1.5"></span>
                       <span className="sr-only">Open user menu</span>
                       <Image
-                        className="h-8 w-8 rounded-full"
-                        src="/assets/Images/my_photo.jpeg"
-                        alt="User Profile"
-                        width={32} // Set width
-                        height={32} // Set height
-                      />
+  className="rounded-2xl"
+  src="/assets/my_pic.jpeg"
+  alt="User Profile"
+  width={32}
+  height={32}
+/>
+
+
+
                     </button>
                   </div>
                 </div>

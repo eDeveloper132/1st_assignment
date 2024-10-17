@@ -1,8 +1,8 @@
 
 export default async function Home() {
-  await new Promise((resolve) => {
-    setTimeout(resolve, 2000);  // Wait for 2 seconds before resolving
-  });
+  // await new Promise((resolve) => {
+  //   setTimeout(resolve, 2000);  // Wait for 2 seconds before resolving
+  // });
   return (
 
     <main className="flex flex-col items-center mt-10 p-6 bg-white shadow-lg rounded-lg">
