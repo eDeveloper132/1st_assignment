@@ -89,11 +89,30 @@ export default function RootLayout({
                     >
                       Home
                     </a>
+
+                    <a
+                      href="/Products"
+                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                    >
+                      Products
+                    </a>
+                    <a
+                      href="/Gallery"
+                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                    >
+                      Gallery
+                    </a>
                     <a
                       href="/About"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
                       About
+                    </a>
+                    <a
+                      href="/Profile"
+                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                    >
+                      Profile
                     </a>
                   </div>
                 </div>
@@ -129,8 +148,6 @@ export default function RootLayout({
                       aria-expanded="false"
                       aria-haspopup="true"
                     >
-                      <span className="absolute -inset-1.5"></span>
-                      <span className="sr-only">Open user menu</span>
                       <Image
   className="rounded-2xl"
   src="/assets/my_pic.jpeg"
@@ -178,7 +195,9 @@ export default function RootLayout({
             </div>
           </div>
         </nav>
+        <div className=" from-green-400 to-blue-500 shadow-lg rounded-lg leading-tight">
         {children}
+        </div>
         <div className="bg-gray-900">
           <div className="max-w-2xl mx-auto text-white py-10">
             <div className="text-center">
